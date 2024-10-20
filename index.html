@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum of Art and Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Museum-X
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Exhibits</a>
+                <a href="#">Tickets</a>
+            </div>
+            <div class="register">
+                <a href="#">Register</a>
+            </div>
+        </nav>
+        <section class="h-txt">
+            <span>Enjoy</span>
+            <h1>Your Museum Visit</h1>
+            <br>
+            <!-- This button opens the chatbot -->
+            <a href="#" id="open-chatbot">Book Your Ticket With Chatbot</a>
+        </section>
+    </header>
+
+    <!-- Chatbot Section -->
+    <div id="chatbot-box" class="chatbot-hidden">
+        <div id="chatbot-header">
+            <h3>TicketBot Assistant</h3>
+            <button id="close-chatbot">X</button>
+        </div>
+        <div id="chatbot-content">
+            <p>Hi! I’m TicketBot. How can I assist you with booking your museum tickets?</p>
+        </div>
+        <div id="chatbot-input-container">
+            <input type="text" id="chatbot-input" placeholder="Type your message...">
+            <button id="chatbot-send">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Linking the JavaScript file -->
+</body>
+</html>
